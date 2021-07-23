@@ -37,13 +37,13 @@ while (contador <= tentativas) and (palpite != numSecreto):
     menor = palpite < numSecreto
 
     if (acertou):
-        print("Parabéns, você acertou na sua",contador,"ª tentativa!\n")
+        print("Parabéns, você acertou na sua {}ª tentativa!\n".format(contador))
     else:
         if (maior):
-            print("Você errou sua",contador,"ª tentativa.")
+            print("Você errou sua {}ª tentativa.".format(contador))
             print("Seu número é maior que o número secreto.\n")
         elif (menor):
-            print("Você errou sua", contador, "ª tentativa.")
+            print("Você errou sua {}ª tentativa.".format(contador))
             print("Seu número é menor que o número secreto.\n")
 
         contador += 1
@@ -55,5 +55,5 @@ while (contador <= tentativas) and (palpite != numSecreto):
 if (errou):
     print("O número secreto era:",numSecreto)
 
-print("Você fez",pontos,"pontos.")
+print("Você fez {} pontos.".format(pontos))
 print("Fim do jogo")
