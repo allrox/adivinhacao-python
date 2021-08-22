@@ -4,7 +4,7 @@ def jogar():
 
     print("-----------------------------------------")
     print("|   Bem vindo ao jogo de adivinhação!   |")
-    print("|       ------------------------        |")
+    print("|        ----------------------         |")
     print("|        Um estudo sobre Python         |")
     print("-----------------------------------------\n")
 
